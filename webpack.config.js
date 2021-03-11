@@ -25,21 +25,16 @@ module.exports = {
         use: ["style-loader", "css-loader"],
       },
       {
-    test: /\.(jpe?g|png|gif|svg)$/i,
+    test: /\.(jpe?g|png|gif|svg|ico)$/i,
     loader: 'file-loader',
     options: {
-      name: '/public/image/[name].[ext]'
+      name: '[name].[ext]'
               }
       },
       {
         test: /\.(html)$/,
         use: ['html-loader']
-      },
-      {
-  test: /\.(png|svg|jpg|jpeg|gif|ico)$/,
-  exclude: /node_modules/,
-  use: ['file-loader?name=[name].[ext]'] // ?name=[name].[ext] is only necessary to preserve the original file name
-}
+      }
     ],
   },
   resolve: {
@@ -57,7 +52,8 @@ module.exports = {
   },
   plugins: [
    new HtmlWebpackPlugin({
-      template: './public/index.html'
+      template: './public/index.html',
+      favicon: 'src/images/favicon.ico'
     })
  ]
 };

@@ -12,7 +12,7 @@ import PrivacyCheckBox from './PrivacyCheckBox';
 import NewsletterCheckbox from './NewsletterCheckbox';
 import Dialog from '@material-ui/core/Dialog';
 import DialogContent from '@material-ui/core/DialogContent';
-import ThankYouImage from './thankyou.jpg';
+import ThankYouImage from './images/thankyou.jpg';
 
 interface IProps {}
 

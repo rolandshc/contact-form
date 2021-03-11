@@ -7,7 +7,6 @@ import Box from '@material-ui/core/Box';
 import Link from '@material-ui/core/Link';
 import ContactForm from './ContactForm';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
-import '../public/favicon.ico';
 
 const theme = createMuiTheme({
     palette: {

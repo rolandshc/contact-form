@@ -1,14 +1,25 @@
 # contact-form
 
 A implementation using react, typescript with webpack and babel.
+Polishing with [Materail UI](https://material-ui.com/)
 
-## Demo folder
+
+Node Module size: 262MB
+build size after bundled: 3.92MB
 
 
-Requirement: 
+
+## Demo
+At the Demo folder in the repo.
+bundled by webpack.
+Open the index.html and go!
+
+
+### Requirement: 
 node, npm from https://nodejs.org/en/
+Node Module size: 262MB
 
-### how to install 
+### how to install ?
 1) download the source and unzip
 2) open terminal goto source folder directory
 3) type "npm install" and run
@@ -23,8 +34,9 @@ node, npm from https://nodejs.org/en/
 
 ### how to change output folder destination?
 goto src/webpack.config.js, change the parameter of the 'path' in 'output'
-
+```json
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
+```

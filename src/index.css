@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'CalibreWeb', 'sans-serif',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #22304F;
+  color: #FFFFFF;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas,  'CalibreWeb', 'sans-serif',
+    monospace;
+}
+
+a {
+  color: #de3c4b !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.button{
+  background-color: #de3c4b;
+}

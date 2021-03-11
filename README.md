@@ -5,19 +5,23 @@ Polishing with [Materail UI](https://material-ui.com/)
 
 
 Node Module size: 262MB
+
 build size after bundled: 3.92MB
 
 
 
 ## Demo
 At the Demo folder in the repo.
+
 bundled by webpack.
+
 Open the index.html and go!
 
 
 ### Requirement: 
 node, npm from https://nodejs.org/en/
-Node Module size: 262MB
+
+Space requirement: 268MB
 
 ### how to install ?
 1) download the source and unzip

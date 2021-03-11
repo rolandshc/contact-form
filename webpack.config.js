@@ -41,7 +41,7 @@ module.exports = {
     extensions: ['.tsx', '.ts', '.js'],
   },
   output: {
-    filename: 'bundle.js',
+    filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
   },
   devServer: {
@@ -55,5 +55,16 @@ module.exports = {
       template: './public/index.html',
       favicon: 'src/images/favicon.ico'
     })
- ]
+ ],
+ optimization: {
+   splitChunks: {
+     cacheGroups: {
+      vendor: {
+       name: "vendors",
+         test: /[\\/]node_modules[\\/]/,
+         chunks: "all",
+       },
+     },
+   },
+ },
 };

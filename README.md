@@ -13,8 +13,6 @@ build size after bundled: 3.92MB
 ## Demo
 At the Demo folder in the repo.
 
-bundled by webpack.
-
 Open the index.html and go!
 
 

@@ -1,7 +1,7 @@
 # contact-form
 
 A implementation using react, typescript with webpack and babel.
-Polishing with [Materail UI](https://material-ui.com/)
+Polishing with [Material UI](https://material-ui.com/)
 
 
 Node Module size: 262MB
